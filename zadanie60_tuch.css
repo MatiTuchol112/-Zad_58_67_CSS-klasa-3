@@ -1,0 +1,20 @@
+/* Mateusz Tuchowski
+hover: pseudoklasa zmieniająca styl elementu po najechaniu kursorem */
+div 
+{
+    width: 628px;
+    background-color: #008000;
+    font-size: 19mm;
+}
+#blok1_tuchowski:hover
+{
+    background-color: #0000FF;
+}
+#blok2_tuchowski:hover
+{
+    background-color: #00FF00;
+}
+#blok3_tuchowski:hover
+{
+    background-color: #FF0000;
+}

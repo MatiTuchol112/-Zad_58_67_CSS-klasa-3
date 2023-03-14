@@ -1,0 +1,66 @@
+<!--Mateusz Tuchowski-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mateusz Tuchowski - Zadanie 66</title>
+        <meta charset utf-8>
+        <style>
+            .obramowanie
+            {
+                border: 1px black solid;
+                padding: 0;
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pseudoelement: first-line</h1>
+        <h2>Obejmuje formatowaniem całą pierwszą linię<br>przykład:</br></h2>
+        <div class="obramowanie">
+        p<br>
+        &nbsp;{<br>
+        &nbsp;color:navy;<br>
+        &nbsp;font-size:12pt;<br>
+        &nbsp;}<br>
+        <br>
+        p:first-line<br>
+        &nbsp;{<br>
+        &nbsp;color:red;<br>
+        &nbsp;font-size:20pt;<br>
+        &nbsp;font-weight:bold;<br>
+        &nbsp;}<br>
+        </div>
+        <h1>Pseudoelementy: after oraz :before.</h1>
+        <h2>Oba elementy służą do umieszczania tekstu przed i za formatowanym elementem strony<br>przykład:</br></h2>
+        <div class="obramowanie">
+        p:before<br>
+        &nbsp;{<br>
+        &nbsp;content:"TO SĄ ĆWICZENIA";<br>
+        &nbsp;font-size:15pt;<br>
+        &nbsp;font-style:italic;<br>
+        &nbsp;font-weight:bold;<br>
+        &nbsp;}<br>
+        p:after<br>
+        &nbsp;{<br>
+        &nbsp;content:"AUTOR Król Lew";<br>
+        &nbsp;font-size:15pt;<br>
+        &nbsp;font-style:italic;<br>
+        &nbsp;font-weight:bold;<br>
+        &nbsp;}<br>
+        </div>
+        <h1>Pseudoelement: first-letter</h1>
+        <h2>Zastosowanie tego spowoduje sformowanie pierwszej litery w tekście<br>przykład:</br></h2>
+        <div class="obramowanie">
+        p<br>
+        &nbsp;{<br>
+        &nbsp;color:navy;<br>
+        &nbsp;font-size:30pt;<br>
+        &nbsp;}<br>
+        &nbsp;p:first-letter<br>
+        &nbsp;{<br>
+        &nbsp;color:red;<br>
+        &nbsp;font-size:100pt;<br>
+        &nbsp;}<br>
+        </div>
+    </body>
+</html>

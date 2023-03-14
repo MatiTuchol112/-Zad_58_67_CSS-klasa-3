@@ -1,0 +1,56 @@
+<textarea cols="100" rows="60" scrolling="no" readonly>
+<!--Mateusz Tuchowski-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mateusz Tuchowski - Zadanie 62</title>
+        <link rel="stylesheet" href="zadanie62_tuch.css">
+    </head>
+<body>
+<div>
+    <p>
+        Tekst bez lang
+        Uwaga1:
+        Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter.<br>
+        Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground<br>
+        Uwaga2:<br>
+        Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii)<br>
+        w arkuszu CSS nie ma wpływu na jego działanie.<br>
+    </p>
+    <p lang="pl">
+        Polski lang<br>
+        CSS - Kaskadowe Arkusze Stylów (z ang. Cascading Style Sheets) jest to specjalny język <br>
+        stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) elementów <br>
+        znajdujących się na stronach WWW.<br>
+    </p>
+    <p lang="en">
+        Angielski lang<br>
+        CSS (Cascading Style Sheets) is a special language <br>
+        created to flexibly manage the formatting (appearance) of elements on web pages. <br>
+    </p>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------
+
+/*Mateusz Tuchowski*/
+body
+    {
+    background-color: silver;
+    }
+p
+    {
+    color:rgb(0, 0, 255);
+    font-size: 6mm;
+    }
+p:lang(pl)
+    {
+    color:rgb(0, 255, 0);
+    font-size: 7mm;
+    }
+p:lang(en)
+    {
+    color: rgb(255, 0, 0);
+    font-size: 11mm;
+    }
+</textarea>

@@ -1,0 +1,20 @@
+/*Mateusz Tuchowski*/
+body
+    {
+    background-color: silver;
+    }
+p
+    {
+    color:rgb(0, 0, 255);
+    font-size: 6mm;
+    }
+p:lang(pl)
+    {
+    color:rgb(0, 255, 0);
+    font-size: 7mm;
+    }
+p:lang(en)
+    {
+    color: rgb(255, 0, 0);
+    font-size: 11mm;
+    }
